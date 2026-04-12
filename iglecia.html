@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suiza Turismo</title>
+
+<style>
+
+/* ESTILO GENERAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* MENÚ LATERAL */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #2c3e50, #1a252f);
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+}
+
+.menu a:hover {
+  background: #1abc9c;
+}
+
+/* SUBMENÚ */
+.menu li {
+  position: relative;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 0;
+  background: #34495e;
+  padding: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.menu li:hover ul {
+  display: flex;
+}
+
+.menu li ul li {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+.menu li ul img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+  margin-left: 220px;
+}
+
+/* HERO (imagen grande) */
+.hero {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 30px;
+}
+
+.seccion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TARJETAS */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.tarjeta p {
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENÚ -->
+<ul class="menu">
+<li><a href="index.html">inicio</a></li>
+  
+
+  <li>
+
+    <a href="castillos.html">Castillos</a>
+  </li>
+
+  <li><a href="monumentos.html">Monumentos</a></li>
+  <li><a href="Historia.html">Historia</a></li>
+</ul>
+
+<!-- CONTENIDO -->
+<div class="contenido">
+
+  <!-- HERO -->
+  <div class="hero">
+    Descubre Suiza 
+  </div>
+<section style="font-family: Arial, sans-serif; line-height: 1.6; padding: 20px;">
+
+  <h1 style="color: #2c3e50;">Iglesia de San Martín</h1>
+
+  <p>
+    La <strong>Iglesia de San Martín</strong> es uno de los templos más representativos de Zermatt, Suiza, 
+    una localidad famosa por su cercanía al monte Matterhorn.
+  </p>
+
+  <h2 style="color: #34495e;"> Historia</h2>
+  <p>
+    Fue construida en el siglo XIX y consagrada en 1913. Pertenece a la Iglesia católica y es un importante 
+    centro religioso para la comunidad local.
+  </p>
+
+  <h2 style="color: #34495e;"> Arquitectura</h2>
+  <p>
+    Su diseño combina elementos tradicionales suizos con un estilo sencillo pero elegante. 
+    Destaca su torre puntiaguda, típica de las iglesias alpinas.
+  </p>
+
+  <h2 style="color: #34495e;"> Ubicación</h2>
+  <p>
+    La iglesia se encuentra en el corazón de Zermatt, rodeada de impresionantes paisajes montañosos. 
+    Desde sus alrededores se pueden apreciar vistas del famoso monte Matterhorn.
+  </p>
+
+  <h2 style="color: #34495e;"> Cementerio</h2>
+  <p>
+    Junto a la iglesia se encuentra el cementerio de Zermatt, donde descansan alpinistas que perdieron la vida 
+    intentando escalar el Matterhorn, lo que añade un valor histórico y simbólico al lugar.
+  </p>
+
+  <h2 style="color: #34495e;"> Interior</h2>
+  <p>
+    El interior destaca por su ambiente tranquilo, vitrales coloridos y decoración sobria, 
+    lo que la convierte en un lugar de recogimiento espiritual y también en un atractivo turístico.
+  </p>
+
+</section>

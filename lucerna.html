@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suiza Turismo</title>
+
+<style>
+
+/* ESTILO GENERAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* MENÚ LATERAL */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #2c3e50, #1a252f);
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+}
+
+.menu a:hover {
+  background: #1abc9c;
+}
+
+/* SUBMENÚ */
+.menu li {
+  position: relative;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 0;
+  background: #34495e;
+  padding: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.menu li:hover ul {
+  display: flex;
+}
+
+.menu li ul li {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+.menu li ul img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+  margin-left: 220px;
+}
+
+/* HERO (imagen grande) */
+.hero {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 30px;
+}
+
+.seccion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TARJETAS */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.tarjeta p {
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENÚ -->
+<ul class="menu">
+<li><a href="index.html">inicio</a></li>
+
+  <li>
+
+    <a href="castillos.html">Castillos</a>
+  </li>
+
+  <li><a href="monumentos.html">Monumentos</a></li>
+  <li><a href="Historia.html">Historia</a></li>
+</ul>
+
+<!-- CONTENIDO -->
+<div class="contenido">
+
+  <!-- HERO -->
+  <div class="hero">
+    Descubre Suiza 
+  </div>
+<h1> monumento al león de lucerna </h1>
+
+<p>
+El monumento fue creado para conmemorar a los soldados suizos que murieron durante la Revolución Francesa, específicamente en el año 1792.
+
+En ese momento, muchos soldados suizos trabajaban como guardias del rey de Francia, Luis XVI. Cuando el pueblo se rebeló y atacó el Palacio de las Tullerías en París, estos guardias defendieron al rey, pero fueron superados y cientos de ellos murieron.
+</p>
+<h1> ¿por que fue un leon y no otro animal? </h1>
+<p> 
+El león representa:
+
+Valentía
+Lealtad
+Sacrificio
+
+Está esculpido herido y agonizante, simbolizando el sufrimiento de los soldados que permanecieron fieles hasta el final.
+</p>
+<h1> ¿quien lo hizo?</h1>
+<p>El monumento fue diseñado por el escultor danés Bertel Thorvaldsen y tallado directamente en una pared de roca en la ciudad de Lucerna en 1820.
+</p>
+<h1> ¿que significan los simbolos tallados en el monumento? </h1>
+<p>El León de Lucerna no solo es una escultura, también tiene varios símbolos grabados que refuerzan su significado histórico.
+En el monumento aparecen dos escudos:
+
+Uno con la flor de lis (símbolo de la monarquía francesa), que representa al rey Luis XVI.
+Otro con la cruz suiza, que representa a Suiza.
+Esto simboliza la relación entre los soldados suizos y el rey francés, a quien protegían.            tambien tiene un texto que dice: “Helvetiorum Fidei ac Virtuti”
+(“A la lealtad y valentía de los suizos”) y por ultimo
+
+el león está apoyado sobre el escudo francés, mostrando que murió defendiendo al rey.
+</p>
+
+
+
+
+</body>
+</html>

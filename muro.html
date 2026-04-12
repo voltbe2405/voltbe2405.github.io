@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suiza Turismo</title>
+
+<style>
+
+/* ESTILO GENERAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* MENÚ LATERAL */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #2c3e50, #1a252f);
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+}
+
+.menu a:hover {
+  background: #1abc9c;
+}
+
+/* SUBMENÚ */
+.menu li {
+  position: relative;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 0;
+  background: #34495e;
+  padding: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.menu li:hover ul {
+  display: flex;
+}
+
+.menu li ul li {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+.menu li ul img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+  margin-left: 220px;
+}
+
+/* HERO (imagen grande) */
+.hero {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 30px;
+}
+
+.seccion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TARJETAS */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.tarjeta p {
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENÚ -->
+<ul class="menu">
+<li><a href="index.html">inicio</a></li>
+
+
+  <li>
+
+    <a href="castillos.html">Castillos</a>
+  </li>
+
+  <li><a href="monumentos.html">Monumentos</a></li>
+  <li><a href="Historia.html">Historia</a></li>
+</ul>
+
+<!-- CONTENIDO -->
+<div class="contenido">
+
+  <!-- HERO -->
+  <div class="hero">
+    Descubre Suiza 
+  </div>
+<section>
+  <h2>Muro de los Reformadores</h2>
+
+  <h3> Ubicación</h3>
+  <p>
+    El Muro de los Reformadores se encuentra en el Parque de los Bastiones 
+    (Parc des Bastions), en el centro de Ginebra, Suiza. Está construido 
+    sobre antiguas murallas de la ciudad del siglo XVI.
+  </p>
+
+  <h3> ¿Qué es el Muro de los Reformadores?</h3>
+  <p>
+    Es un monumento histórico dedicado a la Reforma Protestante, un movimiento 
+    religioso del siglo XVI que transformó la historia de Europa.
+  </p>
+  <ul>
+    <li>Mide aproximadamente 100 metros de largo.</li>
+    <li>Alcanza hasta 9 metros de altura.</li>
+    <li>Cuenta con estatuas y relieves de importantes personajes históricos.</li>
+  </ul>
+
+  <h3> Personajes principales</h3>
+  <p>En el centro del muro se encuentran cuatro figuras clave:</p>
+  <ul>
+    <li>Juan Calvino</li>
+    <li>Guillermo Farel</li>
+    <li>Teodoro de Beza</li>
+    <li>John Knox</li>
+  </ul>
+  <p>
+    Estos personajes fueron fundamentales en la expansión del protestantismo en Europa.
+  </p>
+
+  <h3>Origen y construcción</h3>
+  <ul>
+    <li>Su construcción inició en 1909.</li>
+    <li>Se finalizó alrededor de 1917.</li>
+    <li>
+      Se creó para conmemorar los 400 años del nacimiento de Juan Calvino 
+      y los 350 años de la Universidad de Ginebra.
+    </li>
+  </ul>
+
+  <h3> Significado</h3>
+  <p>
+    El muro simboliza la importancia de Ginebra como centro del protestantismo 
+    y la lucha por la libertad religiosa.
+  </p>
+  <p>
+    En el monumento se encuentra la frase en latín:
+    <strong>"Post Tenebras Lux"</strong> (Después de las tinieblas, la luz).
+  </p>
+
+  <h3> Importancia actual</h3>
+  <p>
+    Actualmente, el Muro de los Reformadores es uno de los principales 
+    atractivos turísticos de Ginebra y un símbolo del impacto cultural 
+    y religioso de la Reforma en Europa.
+  </p>
+</section>

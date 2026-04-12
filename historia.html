@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suiza Turismo</title>
+
+<style>
+
+/* ESTILO GENERAL */
+img{display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  border-radius: 10px;}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* MENÚ LATERAL */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #2c3e50, #1a252f);
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+}
+
+.menu a:hover {
+  background: #1abc9c;
+}
+
+/* SUBMENÚ */
+.menu li {
+  position: relative;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 0;
+  background: #34495e;
+  padding: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.menu li:hover ul {
+  display: flex;
+}
+
+.menu li ul li {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+.menu li ul img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+  margin-left: 220px;
+}
+
+/* HERO (imagen grande) */
+.hero {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 30px;
+}
+
+.seccion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TARJETAS */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.tarjeta p {
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENÚ -->
+<ul class="menu">
+<li><a href="index.html">inicio</a></li>
+
+  <li>
+
+    <a href="castillos.html">Castillos</a>
+  </li>
+
+  <li><a href="monumentos.html">Monumentos</a></li>
+  <li><a href="Historia.html">Historia</a></li>
+</ul>
+
+<!-- CONTENIDO -->
+<div class="contenido">
+
+  <!-- HERO -->
+  <div class="hero">
+    Descubre Suiza 
+   </div>
+<h1> orígenes </h1>
+
+<p> 
+Los orígenes de Suiza se remontan a la antigüedad, cuando su territorio estaba habitado por pueblos celtas, especialmente los helvecios. Estas tribus vivían de la agricultura, la ganadería y el comercio en la región alpina.
+
+En el año 58 a.C., el general romano Julio César conquistó la zona durante la Guerra de las Galias, incorporando el territorio al Imperio romano. Bajo el dominio romano, se desarrollaron ciudades, caminos y sistemas de comercio que impulsaron el crecimiento de la región.
+
+Tras la caída del Imperio romano en el siglo V, el territorio fue ocupado por pueblos germánicos como los alamanes y los burgundios, quienes influyeron en la cultura y los idiomas que aún hoy se hablan en Suiza.
+
+El verdadero origen del país como tal se sitúa en 1291, cuando tres territorios alpinos —Uri, Schwyz y Unterwalden— firmaron un pacto de alianza para defenderse de amenazas externas. Este acuerdo es considerado el nacimiento de la Confederación Suiza.
+</p>
+<img src="confederacion.png" alt= confederacion suiza>
+
+<h1> desarrollo </h1>
+<p>
+Después de la alianza inicial en 1291, más territorios comenzaron a unirse a la Confederación, fortaleciendo poco a poco a Suiza. Durante los siglos XIV y XV, los suizos lucharon contra la poderosa familia de los Habsburgo para mantener su independencia, logrando importantes victorias.
+
+Con el tiempo, la Confederación Suiza creció hasta incluir varios cantones (regiones), cada uno con gran autonomía. Aunque estaban unidos para defenderse, cada cantón tenía sus propias leyes y costumbres.
+
+En el siglo XVI, Suiza se vio influenciada por la Reforma Protestante, liderada por figuras como Ulrich Zwinglio, lo que provocó divisiones religiosas entre cantones católicos y protestantes. Estas tensiones llevaron a conflictos internos, pero el país logró mantenerse unido.
+
+En 1648, la independencia de Suiza fue reconocida oficialmente tras la Paz de Westfalia, separándose definitivamente del Sacro Imperio Romano Germánico.
+
+Más adelante, en 1848, se creó una nueva constitución que transformó a Suiza en un estado federal moderno, con un gobierno central pero respetando la autonomía de los cantones. Este sistema permitió estabilidad política y desarrollo económico.
+
+Desde entonces, Suiza ha mantenido una política de neutralidad, evitando participar en guerras internacionales, lo que le ha permitido convertirse en uno de los países más seguros y prósperos del mundo.
+<p>
+<img src="familia.png" alt= independencia suiza>
+
+<h1> actualidad </h1>
+
+<p>
+En los siglos XX y XXI, Suiza se ha consolidado como uno de los países más estables y desarrollados del mundo. Durante las dos guerras mundiales —la Primera Guerra Mundial y la Segunda Guerra Mundial— Suiza mantuvo su política de neutralidad, evitando participar directamente en los conflictos.
+
+Gracias a esta neutralidad, el país se convirtió en un lugar clave para la diplomacia internacional. La ciudad de Ginebra alberga importantes organizaciones como la Organización de las Naciones Unidas y la Cruz Roja Internacional, lo que refuerza el papel de Suiza como mediador en conflictos globales.
+
+Hoy en día, ciudades como Zúrich destacan como centros financieros internacionales, mientras que otras regiones son famosas por su turismo, especialmente en los Alpes suizos.
+
+Además, Suiza es reconocida por su alto nivel de vida, su sistema educativo, su innovación tecnológica y su fuerte economía. Su modelo de democracia directa permite a los ciudadanos participar activamente en las decisiones del país, lo que fortalece su sistema político.
+
+En la actualidad, Suiza sigue siendo un ejemplo de estabilidad, paz y desarrollo, manteniendo sus tradiciones al mismo tiempo que avanza hacia el futuro.
+</p>
+<img src="suiza-actual.png" alt= suiza actual>
+
+  </div>
+</body>
+</html>

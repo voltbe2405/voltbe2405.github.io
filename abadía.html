@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suiza Turismo</title>
+
+<style>
+
+/* ESTILO GENERAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* MENÚ LATERAL */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #2c3e50, #1a252f);
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+}
+
+.menu a:hover {
+  background: #1abc9c;
+}
+
+/* SUBMENÚ */
+.menu li {
+  position: relative;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 0;
+  background: #34495e;
+  padding: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.menu li:hover ul {
+  display: flex;
+}
+
+.menu li ul li {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+.menu li ul img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+  margin-left: 220px;
+}
+
+/* HERO (imagen grande) */
+.hero {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 30px;
+}
+
+.seccion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TARJETAS */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.tarjeta p {
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENÚ -->
+<ul class="menu">
+<li><a href="index.html">inicio</a></li>
+
+
+  <li>
+
+    <a href="castillos.html">Castillos</a>
+  </li>
+
+  <li><a href="monumentos.html">Monumentos</a></li>
+  <li><a href="Historia.html">Historia</a></li>
+</ul>
+
+<!-- CONTENIDO -->
+<div class="contenido">
+
+  <!-- HERO -->
+  <div class="hero">
+    Descubre Suiza 
+  </div>
+ <h1 style="color: #2c3e50;">Abadía de San Galo</h1>
+
+  <p>
+    La <strong>Abadía de San Galo</strong> es uno de los conjuntos monásticos más importantes de Europa y un símbolo clave del patrimonio cultural suizo. 
+    Se encuentra en la ciudad de San Galo, Suiza, y fue declarada <strong>Patrimonio de la Humanidad por la UNESCO en 1983</strong>.
+  </p>
+
+  <h2 style="color: #34495e;"> Origen e historia</h2>
+  <p>
+    La abadía tiene sus raíces en el siglo VII, cuando el monje irlandés <strong>San Galo</strong> se estableció como ermitaño en la región. 
+    Con el tiempo, este lugar se convirtió en un importante monasterio benedictino, especialmente durante la Edad Media.
+  </p>
+
+  <h2 style="color: #34495e;"> Biblioteca de la abadía</h2>
+  <p>
+    Uno de los elementos más destacados es la <strong>Biblioteca de la Abadía</strong>, considerada una de las más antiguas y ricas del mundo. 
+    Alberga más de 170,000 libros, incluidos manuscritos medievales muy valiosos. 
+    Su sala principal, de estilo barroco, es famosa por su belleza arquitectónica.
+  </p>
+
+  <h2 style="color: #34495e;"> Arquitectura</h2>
+  <p>
+    El complejo actual refleja principalmente el estilo barroco del siglo XVIII. Incluye:
+  </p>
+  <ul>
+    <li>La catedral (con interiores decorados con frescos y estucos)</li>
+    <li>La biblioteca</li>
+    <li>Antiguos edificios monásticos</li>
+  </ul>
+
+  <p>
+    Además, el <strong>Plano de San Galo</strong>, un famoso dibujo del siglo IX, muestra cómo debía organizarse un monasterio ideal medieval.
+  </p>
+
+  <h2 style="color: #34495e;"> Importancia cultural</h2>
+  <p>
+    La abadía fue un importante centro de cultura, educación y escritura en Europa durante siglos. 
+    Los monjes copiaban y preservaban textos clásicos y religiosos, contribuyendo al desarrollo del conocimiento en Occidente.
+  </p>
+
+</section>
+
+</body>
+</html>

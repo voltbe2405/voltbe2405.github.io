@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suiza Turismo</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* ESTILO GENERAL */
+.centrar{text-align: center;
+  margin-top: 20px;
+}
+
+h4{
+margin-left: 50px;
+}
+h3{
+margin-left: 350px;
+}
+h1{
+text-align: center;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* MENÚ LATERAL */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #2c3e50, #1a252f);
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+}
+
+.menu a:hover {
+  background: #1abc9c;
+}
+
+/* SUBMENÚ */
+.menu li {
+  position: relative;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 220px;
+  top: 0;
+  background: #34495e;
+  padding: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.menu li:hover ul {
+  display: flex;
+}
+
+.menu li ul li {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+.menu li ul img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+  margin-left: 220px;
+}
+
+/* HERO (imagen grande) */
+.hero {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 30px;
+}
+
+.seccion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TARJETAS */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.tarjeta p {
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<!-- MENÚ -->
+<ul class="menu">
+<li><a href="index.html">inicio</a></li>
+  
+
+  <li>
+
+    <a href="castillos.html">Castillos</a>
+  </li>
+
+  <li><a href="monumentos.html">Monumentos</a></li>
+  <li><a href="historia.html">historia</a></li>
+</ul>
+
+<!-- CONTENIDO -->
+<div class="contenido">
+
+  <!-- HERO -->
+  <div class="hero">
+    Descubre Suiza: naturaleza,cultura y aventura
+  </div>
+
+  <h2>suiza es un país famoso por sus montañas lagos y ciudades modernas.
+Es uno de los destinos turísticos más atractivos del mundo por su belleza natural y calidad de vida </h2>
+  <h3>las 5 ciudades principales</h3>
+
+<table border="1">
+
+<tr>
+  <td> 
+     <ul>
+      <li>Capital: Berna</li>
+      <li>Población: 146 mil habitantes</li>
+     <li>Idioma: Alemán, francés y schweizerdeutsch</li>
+     <li>Moneda: Franco suizo</li>
+   </ul>
+  </td>
+
+  <td>
+  <ul>
+  <li>Ciudad: Zúrich </li>
+  <li>Población: 420 mil habitantes</li>
+  <li>Idioma: Alemán, Ingles ,Züritüütsch y Hochdeutsch</li>
+  <li>Moneda: Franco suizo</li>
+</ul>
+</td>
+ 
+<td>
+<ul>
+  <li>Ciudad: Ginebra</li>
+  <li>Población: 474 mil habitantes</li>
+  <li>Idioma: Alemán, francés, italiano e ingles</li>
+  <li>Moneda: Franco suizo</li>
+</ul>
+
+</td>
+</tr>
+
+<tr>
+ <td>
+ <ul>
+  <li>Ciudad: Lausana</li>
+  <li>Población: 150 mil habitantes</li>
+  <li>Idioma: Alemán, francés, italiano e ingles</li>
+  <li>Moneda: Franco suizo</li>
+</ul>
+</td>
+<td>
+<ul>
+  <li>Ciudad: basilea</li>
+  <li>Población: 200 mil habitantes</li>
+  <li>Idioma: Alemán, Baseldytsch y Hochdeutsch</li>
+  <li>Moneda: Franco suizo</li>
+</ul>
+</td>
+<td>
+<ul>
+  <li>Ciudad: lucerna</li>
+  <li>Población: 220 mil habitantes</li>
+  <li>Idioma: Alemán, Hochdeutsch y Hochalamanisch</li>
+  <li>Moneda: Franco suizo</li>
+</ul>
+</td>
+
+</tr>
+
+</table>
+<h1> viajes </h1>
+<h4>
+un viaje a suiza desde mexico en 2026 suele costar entre $30,000 y $70,000 MXN o más por persona para una estancia de 8 a 10 días, incluyendo vuelos y alojamiento 
+</h4>
+<p> un boleto de avion con destino a suiza desde la ciudad de mexico te puede costar desde 12 mil a 24 mil y en temporadas altas pueden superar hasta los 28 mil pesos mexicanos </p>
+<div class="centrar">
+<a href="https://wwws.airfrance.com.mx/es-mx/vuelos-desde-ciudad-de-m%C3%A9xico-a-suiza">consulta tus boletos aqui</a>
+</div>
+<p> gracias por vicitar aeroland
+</p>
+
+</div>
+ 
+</body>
+</html>
